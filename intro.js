@@ -1,4 +1,4 @@
-var buttonActive = document.querySelector('.button button')
+var buttonActive = document.querySelector('.button')
 buttonActive.onclick = function(){
     var boxFlower = document.querySelector('.flower-img:nth-child(1)')
     var boxFlower2 = document.querySelector('.flower-img:nth-child(2)')
@@ -45,7 +45,7 @@ closeSlider3.addEventListener('click', function(){
 
 
 // ------audio------------
-var buttonSong = document.querySelector('.button')
+var buttonSong = document.getElementById('btn-clickme')
 var mySong = document.getElementById("song")
 buttonSong.onclick= function(){
     if(mySong.paused){
